@@ -23,3 +23,97 @@ You may hear someone say **"O of N,"** which means your algorithm will grow line
 
 It will help us make decisions about what data structures and algorithms to use. Knowing how they will perform can greatly help create *the best* possible program out there.
 
+<br>
+
+## **<u>Looking at input. How does our program's execution time grow with respect to input?</u>**
+
+<br>
+
+```typescript
+function sumCharCodes(n: string) : number {
+    let sum = 0;
+    for (let i = 0; i < n.length; ++i) {
+        sum += n.charCodeAt(i)
+    }
+    
+    return sum;
+}
+```
+
+In this example n is a string meaning it has a length and a series of characters. 
+
+Looking at the **for loop** you can see that it has to execute the length of the string. Meaning that if the string grows by 50% our function is 50% slower **(it grows linearily)**. For every one more unit of string there is one more loop it has to do. 
+
+**<u>ANSWER</u>**
+
+**O(N)** pronounced Oh of N.
+
+<br>
+
+### **How?**
+
+The simpliest trick for complexity is to Look for loops!
+
+<br>
+
+### **What About this?**
+<br>
+
+```typescript
+function sumCharCodes(n: string) : number {
+    let sum = 0;
+    for (let i = 0; i < n.length; ++i) {
+        sum += n.charCodeAt(i)
+    }
+
+     for (let i = 0; i < n.length; ++i) {
+        sum += n.charCodeAt(i)
+    }
+    
+    return sum;
+}
+```
+
+
+**<u>It's O(N) Here's Why</u>**
+
+1. Growth is with respect to the input 
+2. Constants are dropped 
+<br>
+**O(2N) -> O(N)** This makes sense becasue Big O is meant to describe the upper bound of the algorithm **(the growth of the algorithm)**. The constant eventually becomes irrelevant. 
+
+<br>
+
+**Why you don't care about constants**
+
+-  N = 1, O(10N) = 10, O(N^2) = 1 
+  
+  <br>
+
+-  N = 5, O(10N) = 50, O(N^2) = 25
+  
+  <br>
+
+ -  N = 100, O(10N) = 1,000, O(N^2) = 10,000 // 10X Bigger 
+  
+  <br>
+
+ -  N = 1000, O(10N) = 10,000, O(N^2) = 1,000,000 // 100X Bigger
+  
+  <br>
+
+ -  N = 10000, O(10N) = 100,000, O(N^2) = 100,000,000 // 1000X Bigger
+
+<br>
+
+**In Summary**
+
+O(N) means the time grows linearly with the number of things, while O(2N) means the time grows exponentially. Simplifying O(2N) to O(N) tells us that, in the big picture, the growth is still linear, and we can ignore the constant factor.
+
+<br>
+
+
+
+<div style="text-align:center">
+    <img src="Linear.jpg" alt="Linear">
+</div>
