@@ -190,7 +190,13 @@ function sum_char_codes(n: string): number {
 **O(log n)**
 
 - Binary search trees
-- half the amount of input you have to search but only need to look at one point at a time. 
+- half the amount of input you have to search but only need to look at one point at a time.
+
+<br>
+
+**O(sqrt(n))**
+
+not as common.
 
 <br>
 
