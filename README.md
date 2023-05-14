@@ -50,12 +50,13 @@ Looking at the **for loop** you can see that it has to execute the length of the
 
 <br>
 
-### **How?**
+### <u>**How?**  ...The simpliest trick for complexity is to Look for loops!</u>
 
-The simpliest trick for complexity is to Look for loops!
+Because the loop iterates exactly n.length times, where n represents the size of the input string, we can say that the complexity of this function is linear or O(N). As the size of the input string increases, the loop is executed proportionally more times. For example, if the input string doubles in size, the loop will execute approximately twice as many times.
 
 <br>
 
+<br>
 ### **What About this?**
 <br>
 
