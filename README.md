@@ -108,9 +108,18 @@ function sumCharCodes(n: string) : number {
 
 <br>
 
-**In Summary**
+
+
+### **In Summary**
 
 O(N) means the time grows linearly with the number of things, while O(2N) means the time grows exponentially. Simplifying O(2N) to O(N) tells us that, in the big picture, the growth is still linear, and we can ignore the constant factor.
+
+<br>
+
+#### **Things to note**
+* growth is with respect to the input
+* Constants are dropped
+* Worst case is usually the way we measure
 
 <br>
 
