@@ -1,9 +1,9 @@
-# Data Structures and Algorithim's 
+# 💻 😎 Data Structures and Algorithim's 
 
 I've had my fair share of failures in coding interviews, so I've put together a guide on Data Structures and Algorithms. I hope this resource will help you out and inspire you to dive deeper into this subject! There are plenty of excellent **FREE** courses available on DSA, and one that I've been particularly enjoying is [this one](https://frontendmasters.com/courses/algorithms/).
 
 
-# What is Big O
+# What is Big O? 🤷
 
 Big O is a way to categorize your algorithms' time or memory requirements based on input. It is not meant to be an exact measurement; it will not tell you how many CPU cycles it takes. Instead, it is meant to generalize the growth of your algorithm.
 
@@ -57,6 +57,7 @@ Because the loop iterates exactly n.length times, where n represents the size of
 <br>
 
 <br>
+
 ### **What About this?**
 <br>
 
@@ -81,7 +82,7 @@ function sumCharCodes(n: string) : number {
 1. Growth is with respect to the input 
 2. Constants are dropped 
 <br>
-**O(2N) -> O(N)** This makes sense becasue Big O is meant to describe the upper bound of the algorithm **(the growth of the algorithm)**. The constant eventually becomes irrelevant. 
+**O(2N) -> O(N)** This makes sense because Big O is meant to describe the upper bound of the algorithm **(the growth of the algorithm)**. The constant eventually becomes irrelevant. 
 
 <br>
 
@@ -113,8 +114,7 @@ O(N) means the time grows linearly with the number of things, while O(2N) means 
 
 <br>
 
-
-
-<div style="text-align:center">
-    <img src="Linear.jpg" alt="Linear">
+<div align="center">
+  <h2><u><strong><a href="/array/Array.md">Click Here For the Next Lesson </a></strong></u></h2>
 </div>
+
