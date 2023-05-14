@@ -79,8 +79,6 @@ function sumCharCodes(n: string) : number {
 
 **<u>It's O(N) Here's Why</u>**
 
-1. Growth is with respect to the input 
-2. Constants are dropped 
 <br>
 **O(2N) -> O(N)** This makes sense because Big O is meant to describe the upper bound of the algorithm **(the growth of the algorithm)**. The constant eventually becomes irrelevant. 
 
@@ -197,6 +195,13 @@ function sum_char_codes(n: string): number {
 **O(sqrt(n))**
 
 not as common.
+
+
+## **<u>Important Concepts!!!</u>**
+
+1. Growth is with respect to the input 
+2. Constants are dropped
+3. Worst case is usually the way we measure 
 
 <br>
 
