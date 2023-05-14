@@ -1,4 +1,4 @@
-# 💻 😎 Data Structures and Algorithim's 
+#  😎 Data Structures and Algorithim's 
 
 I've had my fair share of failures in coding interviews, so I've put together a guide on Data Structures and Algorithms. I hope this resource will help you out and inspire you to dive deeper into this subject! There are plenty of excellent **FREE** courses available on DSA, and one that I've been particularly enjoying is [this one](https://frontendmasters.com/courses/algorithms/).
 
@@ -120,6 +120,77 @@ O(N) means the time grows linearly with the number of things, while O(2N) means 
 * growth is with respect to the input
 * Constants are dropped
 * Worst case is usually the way we measure
+
+<br>
+
+<div align="center">
+  <h2><u><strong>Common Big-O Complexities</strong></u></h2>
+  </div>
+
+<br>
+
+<p align="center">
+  <img src="Big-o.jpg" alt="Big-O complexities">
+</p>
+
+
+<br>
+
+##  **<u>Examples</u>**
+
+<br>
+
+**O(N^2)** 
+
+*Go over every single character in the string*
+
+```typescript
+function sum_char_codes(n: string): number {
+    let sum = 0;
+    for (let i = 0; i < n.length; ++i) {
+        for (let j = 0; j < n.length; ++j) {
+            sum += charCode;
+        }
+    }
+
+    return sum;
+}
+```
+
+<br>
+
+**O(N^3)**
+
+  *again Go over every single character in the string*
+
+```typescript
+function sum_char_codes(n: string): number {
+    let sum = 0;
+    for (let i = 0; i < n.length; ++i) {
+        for (let j = 0; j < n.length; ++j) {
+            for (let k = 0; k < n.length; ++k) {
+                sum += charCode;
+            }
+        }
+    }
+    return sum;
+}
+```
+
+<br>
+
+**O(n log n)**
+
+- Quicksort is one. (come back to that.)
+
+- Half the amount of space you search but you need to the search every character once
+
+<br> 
+
+**O(log n)**
+
+- Binary search trees
+- half the amount of input you have to search but only need to look at one point at a time. 
 
 <br>
 
