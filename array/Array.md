@@ -47,4 +47,4 @@ v
 - They are fixed sized, continiguous memory chunks
 - that means you cannot grow it 
 - there is no insertAt or push or pop. Doesnt mean you can't write those though.
-- 
+  
