@@ -51,8 +51,8 @@ There are low-level languages and high-level languages. When using a high-level 
 
  <br>
 
- <div align="center">
-  <h2><u><strong><a href="./Search/search.">Click Here For the Next Lesson </a></strong></u></h2>
-</div>
+
+  ## [Click Here For the Next Lesson](../search/Search.md)
+
 
  
