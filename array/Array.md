@@ -21,7 +21,8 @@ There are low-level languages and high-level languages. When using a high-level 
 <br>
 
 **Examples of some Low and high level languages**
-v 
+
+| Low Level Languages | High Level Languages |
 | ------------------------- | ------------------------ |
 | Machine Code              | JavaScript / TypeScript |
 | Assembly                  | Python                   |
@@ -51,7 +52,7 @@ v
  <br>
 
  <div align="center">
-  <h2><u><strong><a href="./Search/search.md">Click Here For the Next Lesson </a></strong></u></h2>
+  <h2><u><strong><a href="./Search/search.">Click Here For the Next Lesson </a></strong></u></h2>
 </div>
 
  
