@@ -1,1 +1,25 @@
-# Search
+# Algorithms
+
+- its good practice to get into being able to visualize the problem, discuss it witht eh boxes and arrows and then program it.
+
+
+## **<u>Linear Search</u>** 
+
+this is searching throught he index, for example using the ```indexOf``` method. 
+
+
+simplist example of this is the needle in the haystack example, 
+
+
+```typescript 
+
+function linearSearch(haystack: number, needle: number): boolean {
+
+    for (let i = 0; i < haystack.length; i++) {
+        if (haystack[i] === needle) {
+            return true
+        }
+    }
+        return false
+}
+```
