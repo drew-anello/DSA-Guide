@@ -23,3 +23,14 @@ function linearSearch(haystack: number, needle: number): boolean {
         return false
 }
 ```
+the complexity for this is O(N) btw
+
+
+## **<u>Binary Search</u>**
+
+this is a bit of a doosy, but its definently a basis for other algorithms we'll encounter 
+
+## Always ask yourself is it Ordered? 
+
+how can we search this array? 
+
