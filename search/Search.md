@@ -33,4 +33,9 @@ this is a bit of a doosy, but its definently a basis for other algorithms we'll 
 ## Always ask yourself is it Ordered? 
 
 Binary Search there are only two possible states, either 0 | 1
+
+
+Not really scanning anything more so looking at a value dividing in half, lookig at val dividing in half etc 
+
+
  
