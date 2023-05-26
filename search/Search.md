@@ -44,10 +44,7 @@ we have a function that has a search that takes in array it has a low and a high
 
 we could do a loop where one condition happens which would be a comparison between a low and the high
 
-the 3 conditions
-
-- value is the thing were looking for.
-- 
+## **This is under the assumption that the array is sorted btw**
 
 we'll say midpoint = m 
 
